@@ -14,6 +14,8 @@ class FileController {
     box.files.push(file);
 
     await box.save();
+
+    req.io.sockets.in(box._id).emit('file', file); // pega todos os usuários que estão conectados naquela box
     
     return res.json(file);
   }
