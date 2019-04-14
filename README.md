@@ -1,1 +1,1 @@
-"# rockeatseat-omnistack" 
+"# rocketseat-omnistack" 
