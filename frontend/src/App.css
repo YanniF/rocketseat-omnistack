@@ -17,3 +17,8 @@ body {
   color: #333;
   -webkit-font-smothing: antialiased;
 }
+
+::selection {
+  color: #fff;
+  background-color: #7159c1;
+}
